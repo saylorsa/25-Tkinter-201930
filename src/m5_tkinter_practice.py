@@ -13,9 +13,11 @@ from tkinter import ttk
 def main():
     """ Constructs a GUI with stuff on it. """
     # -------------------------------------------------------------------------
-    # TODO: 2. After reading and understanding the m1e module,
+    # DONE: 2. After reading and understanding the m1e module,
     #   ** make a window that shows up. **
     # -------------------------------------------------------------------------
+    root = tkinter.Tk()
+    root.mainloop()
 
     # -------------------------------------------------------------------------
     # TODO: 3. After reading and understanding the m2e module,
