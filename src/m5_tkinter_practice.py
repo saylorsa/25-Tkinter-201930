@@ -17,10 +17,15 @@ def main():
     #   ** make a window that shows up. **
     # -------------------------------------------------------------------------
     root = tkinter.Tk()
+
+    frame1 = ttk.Frame(root, padding=10)
+    frame1.grid()
+
+
     root.mainloop()
 
     # -------------------------------------------------------------------------
-    # TODO: 3. After reading and understanding the m2e module,
+    # DONE: 3. After reading and understanding the m2e module,
     #   ** put a Frame on the window. **
     # -------------------------------------------------------------------------
 
